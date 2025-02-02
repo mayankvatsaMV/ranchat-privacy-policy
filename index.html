@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,16 +22,11 @@
             padding: 10px;
         }
 
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
 
-        h1, h2, h3 {
+
+        h1,
+        h2,
+        h3 {
             color: #333;
             margin-bottom: 10px;
         }
@@ -62,16 +58,30 @@
             padding: 5px 0;
         }
 
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 80px;
+            /* Added space below container to prevent footer overlap */
+        }
+
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 10px;
             font-size: 0.9em;
-            position: fixed;
-            bottom: 0;
+            position: relative;
+            /* Changed from fixed to relative */
             width: 100%;
+            margin-top: 30px;
+            /* Added margin-top to ensure space between content and footer */
         }
+
 
         a {
             color: #4CAF50;
@@ -83,11 +93,13 @@
         }
     </style>
 </head>
+
 <body>
 
     <header>
         <h1>Privacy Policy</h1>
-        <p>Welcome to <strong>Ranchat</strong>! Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your data when you use our app.</p>
+        <p>Welcome to <strong>Ranchat</strong>! Your privacy is important to us. This Privacy Policy explains how we
+            collect, use, and protect your data when you use our app.</p>
     </header>
 
     <div class="container">
@@ -98,18 +110,22 @@
                     <ul>
                         <li><strong>Name:</strong> Collected during signup and displayed to other users.</li>
                         <li><strong>Language Preferenc:</strong> Used for matching users with similar preferences.</li>
-                        <li><strong>Sexual Orientation:</strong> Collected to personalize user experience and matching, if provided.</li>
+                        <li><strong>Sexual Orientation:</strong> Collected to personalize user experience and matching,
+                            if provided.</li>
                     </ul>
                 </li>
                 <li><strong>b) Messages & Media:</strong>
                     <ul>
-                        <li><strong>Text Chats & Video Calls:</strong> End-to-end encrypted and not stored on our servers.</li>
-                        <li><strong>Images:</strong> Sent as one-time messages and are <strong>not saved</strong> permanently.</li>
+                        <li><strong>Text Chats & Video Calls:</strong> End-to-end encrypted and not stored on our
+                            servers.</li>
+                        <li><strong>Images:</strong> Sent as one-time messages and are <strong>not saved</strong>
+                            permanently.</li>
                     </ul>
                 </li>
                 <li><strong>c) Device Information:</strong>
                     <ul>
-                        <li><strong>Device Identifier:</strong> Collected to identify devices and send push notifications to users.</li>
+                        <li><strong>Device Identifier:</strong> Collected to identify devices and send push
+                            notifications to users.</li>
                     </ul>
                 </li>
             </ul>
@@ -139,8 +155,10 @@
             <div class="section-title">4. Your Choices & Rights</div>
             <ul>
                 <li><strong>Delete Account:</strong> You can request account deletion via settings.</li>
-                <li><strong>Control Your Data:</strong> Users can choose to stop sharing their preferences at any time.</li>
-                <li><strong>Report & Block Users:</strong> If you encounter inappropriate content or behavior, you can report and block users.</li>
+                <li><strong>Control Your Data:</strong> Users can choose to stop sharing their preferences at any time.
+                </li>
+                <li><strong>Report & Block Users:</strong> If you encounter inappropriate content or behavior, you can
+                    report and block users.</li>
             </ul>
         </section>
 
@@ -156,7 +174,8 @@
         <section>
             <div class="section-title">6. Changes to This Privacy Policy</div>
             <ul>
-                <li>We may update this policy from time to time. Any changes will be communicated via an in-app notification.</li>
+                <li>We may update this policy from time to time. Any changes will be communicated via an in-app
+                    notification.</li>
             </ul>
         </section>
 
@@ -168,10 +187,10 @@
             </ul>
         </section>
     </div>
-
     <footer>
         <p>Last Updated: [Insert Date]</p>
     </footer>
 
 </body>
+
 </html>
